@@ -23,6 +23,13 @@ export function SideBar() {
         event.preventDefault();
         history.push(item.itemId);
       }}
+      overrides={{
+        Root: {
+          style: ({ $theme }) => ({
+            backgroundColor: $theme.colors.primary50,
+          }),
+        },
+      }}
     />
   );
 }

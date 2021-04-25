@@ -6,7 +6,12 @@ import { Main } from '../main';
 
 const Root = () => {
   return (
-    <Block display="grid" gridTemplateColumns="200px 1fr">
+    <Block
+      display="grid"
+      gridTemplateColumns="140px 1fr"
+      gridTemplateRows="49px 1fr"
+      height="100vh"
+    >
       <Block gridColumn="1/3">
         <Header />
       </Block>

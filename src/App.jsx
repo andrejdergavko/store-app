@@ -5,7 +5,6 @@ import { Provider as StyletronProvider } from 'styletron-react';
 import { HashRouter as Router } from 'react-router-dom';
 import { LightTheme, BaseProvider } from 'baseui';
 import { Root } from './components/root';
-import './App.css';
 
 import store from './store/store';
 
